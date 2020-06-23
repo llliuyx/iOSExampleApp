@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GTMediator.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GTDetailViewController : UIViewController
+@interface GTDetailViewController : UIViewController<GTDetailViewControllerProtocol>
 
--(instancetype) initWithUrlString:(NSString *)urlString;
+- (instancetype) initWithUrlString:(NSString *)urlString;
 
 @end
 

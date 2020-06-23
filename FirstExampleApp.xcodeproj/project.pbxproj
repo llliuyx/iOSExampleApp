@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270B9EE224A1E3D600C076BB /* GTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B9EE124A1E3D600C076BB /* GTMediator.m */; };
 		2783198E241C9B140026E751 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2783198D241C9B140026E751 /* icon.bundle */; };
 		27831991241CA0040026E751 /* GTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27831990241CA0040026E751 /* GTDetailViewController.m */; };
 		27831993241CA69F0026E751 /* GTNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEBF9240B6047009B1E99 /* GTNormalTableViewCell.m */; };
@@ -48,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270B9EE024A1E3D600C076BB /* GTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMediator.h; sourceTree = "<group>"; };
+		270B9EE124A1E3D600C076BB /* GTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTMediator.m; sourceTree = "<group>"; };
 		2783198D241C9B140026E751 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
 		2783198F241CA0040026E751 /* GTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDetailViewController.h; sourceTree = "<group>"; };
 		27831990241CA0040026E751 /* GTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTDetailViewController.m; sourceTree = "<group>"; };
@@ -223,6 +226,8 @@
 				27B280CB245FAB9B009B5E9B /* GTSplashView.m */,
 				27B280CD245FACEE009B5E9B /* GTScreen.h */,
 				27B280CE245FACEE009B5E9B /* GTScreen.m */,
+				270B9EE024A1E3D600C076BB /* GTMediator.h */,
+				270B9EE124A1E3D600C076BB /* GTMediator.m */,
 			);
 			path = FirstExampleApp;
 			sourceTree = "<group>";
@@ -419,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				270B9EE224A1E3D600C076BB /* GTMediator.m in Sources */,
 				27B280CF245FACEE009B5E9B /* GTScreen.m in Sources */,
 				27B280DE24606C08009B5E9B /* GTListItem.m in Sources */,
 				27B280C9245E4648009B5E9B /* GTVideoToolBar.m in Sources */,

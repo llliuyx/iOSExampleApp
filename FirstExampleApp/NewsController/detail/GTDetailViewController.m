@@ -8,6 +8,7 @@
 
 #import "GTDetailViewController.h"
 #import <WebKit/WebKit.h>
+#import "GTMediator.h"
 
 @interface GTDetailViewController () <WKNavigationDelegate>
 @property(nonatomic, strong, readwrite) WKWebView *webview;
@@ -23,6 +24,17 @@
         self.articleUrl = urlString;
     }
     return self;
+}
+
++ (void)load {
+//    [GTMediator registerScheme:@"detail://" processBlock:^(NSDictionary * _Nonnull params) {
+//        NSString *url = [params objectForKey:@"url"];
+//        UINavigationController *navigationController = (UINavigationController *)[params objectForKey:@"controller"];
+//        GTDetailViewController *controller = [[GTDetailViewController alloc] initWithUrlString:url];
+//        [navigationController pushViewController:controller animated:YES];
+//    }];
+    
+    [GTMediator registerProtol:@protocol(GTDetailViewControllerProtocol) class:[self class]];
 }
 
 -(void)dealloc {
@@ -64,6 +76,12 @@
 - (void)observeValueForKeyPath:(nullable NSString *)keyPath ofObject:(nullable id)object change:(nullable NSDictionary<NSKeyValueChangeKey, id> *)change context:(nullable void *)context {
     NSLog(@"");
     self.progressView.progress = self.webview.estimatedProgress;
+}
+
+#pragma mark -
+- (__kindof UIViewController *)detailViewControllerWithUrl:(NSString *)detailUrl
+{
+    return [[[self class] alloc] initWithUrlString:detailUrl];
 }
 
 @end
