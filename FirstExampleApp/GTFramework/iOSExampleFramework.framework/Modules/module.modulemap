@@ -1,0 +1,6 @@
+framework module iOSExampleFramework {
+  umbrella header "iOSExampleFramework.h"
+
+  export *
+  module * { export * }
+}

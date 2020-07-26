@@ -10,7 +10,10 @@
 #import "GTNewsViewController.h"
 #import "GTVideoViewController.h"
 #import "GTRecommandViewController.h"
+#import "GTMineViewController.h"
 #import "GTSplashView.h"
+#import "GTFramework/GTStaticTest.h"
+//#import <GTFramework/GTFrameworkTest.h>
 
 @interface AppDelegate ()<UITabBarControllerDelegate>
 
@@ -25,22 +28,12 @@
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
     
-    UIViewController *controller1 = [[GTNewsViewController alloc] init];
-    controller1.tabBarItem.title = @"新闻";
-    controller1.tabBarItem.image = [UIImage imageNamed:@"icon.bundle/page@2x.png"];
-    controller1.tabBarItem.selectedImage = [UIImage imageNamed:@"icon.bundle/page_selected@2x.png"];
-    
+    GTNewsViewController *newsViewController = [[GTNewsViewController alloc] init];
     GTVideoViewController *videoController = [[GTVideoViewController alloc] init];
-    
     GTRecommandViewController *recommandController = [[GTRecommandViewController alloc] init];
-    
-    UIViewController *controller4 = [[UIViewController alloc] init];
-    controller4.view.backgroundColor = [UIColor lightGrayColor];
-    controller4.tabBarItem.title = @"我的";
-    controller4.tabBarItem.image = [UIImage imageNamed:@"icon.bundle/home@2x.png"];
-    controller4.tabBarItem.selectedImage = [UIImage imageNamed:@"icon.bundle/home_selected@2x.png"];
-    
-    [tabBarController setViewControllers:@[controller1, videoController, recommandController, controller4]];
+    GTMineViewController *mineViewController = [[GTMineViewController alloc] init];
+
+    [tabBarController setViewControllers:@[newsViewController, videoController, recommandController, mineViewController]];
     tabBarController.delegate = self;
     
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
@@ -53,6 +46,12 @@
         GTSplashView *splashView = [[GTSplashView alloc] initWithFrame:self.window.bounds];
         splashView;
     })];
+    
+//    Static
+//    [[GTStaticTest alloc] init];
+    
+//    framework
+//    [[GTFrameworkTest alloc] init];
     
     return YES;
 }
