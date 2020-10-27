@@ -7,6 +7,7 @@
 //
 
 #import "GTMineViewController.h"
+#import "GTMediator.h"
 
 @interface GTMineViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -42,7 +43,7 @@
 
 #pragma mark -
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return 3;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -55,6 +56,13 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 60;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 2) {
+        [GTMediator openUrl:@"learn://" params:@{@"controller": self.navigationController}];
+    }
 }
 
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
@@ -96,9 +104,11 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.row == 0) {
         cell.textLabel.text = [[GTLogin sharedLogin] isLogin] ? [GTLogin sharedLogin].nick : @"昵称";
-    } else {
+    } else if (indexPath.row == 1) {
         cell.textLabel.text = [[GTLogin sharedLogin] isLogin] ? [GTLogin sharedLogin].address : @"地区";
-    }
+    } else if (indexPath.row == 2) {
+        cell.textLabel.text = @"学习";
+    };
 }
 
 - (void) _tapImage {

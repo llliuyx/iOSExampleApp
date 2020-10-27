@@ -15,6 +15,30 @@
 		270B9F5A24A2569A00C076BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B9F5824A2562700C076BB /* SystemConfiguration.framework */; };
 		270B9F5C24A256C600C076BB /* iOSExampleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270B9F4624A215CB00C076BB /* iOSExampleFramework.framework */; };
 		270B9F5D24A256C600C076BB /* iOSExampleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 270B9F4624A215CB00C076BB /* iOSExampleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		273DBD9824CDA69A00B24554 /* LearnControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBD9724CDA69A00B24554 /* LearnControllerViewController.m */; };
+		273DBD9C24CDAFFC00B24554 /* TransitioningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBD9B24CDAFFC00B24554 /* TransitioningViewController.m */; };
+		273DBDA424CDB66D00B24554 /* ForithmFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBD9F24CDB66D00B24554 /* ForithmFromViewController.m */; };
+		273DBDA524CDB66D00B24554 /* ForithmToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDA024CDB66D00B24554 /* ForithmToViewController.m */; };
+		273DBDA624CDB66D00B24554 /* ForithmAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDA324CDB66D00B24554 /* ForithmAnimation.m */; };
+		273DBDB324CDBA1800B24554 /* SwipeToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDA924CDBA1700B24554 /* SwipeToViewController.m */; };
+		273DBDB424CDBA1800B24554 /* SwipeTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDAC24CDBA1700B24554 /* SwipeTransitionDelegate.m */; };
+		273DBDB524CDBA1800B24554 /* SwipTransitionInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDAD24CDBA1800B24554 /* SwipTransitionInteractionController.m */; };
+		273DBDB624CDBA1800B24554 /* SwipeTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDB124CDBA1800B24554 /* SwipeTransitionAnimation.m */; };
+		273DBDB724CDBA1800B24554 /* SwipeFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDB224CDBA1800B24554 /* SwipeFromViewController.m */; };
+		273DBDBF24CDBAC500B24554 /* CustomFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDBB24CDBAC500B24554 /* CustomFromViewController.m */; };
+		273DBDC024CDBAC500B24554 /* CustomToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDBC24CDBAC500B24554 /* CustomToViewController.m */; };
+		273DBDC124CDBAC500B24554 /* CustomPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDBE24CDBAC500B24554 /* CustomPresentationController.m */; };
+		273DBDCC24CDBB0300B24554 /* SpringTrasitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDC524CDBB0300B24554 /* SpringTrasitionAnimation.m */; };
+		273DBDCD24CDBB0300B24554 /* SpringFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDC624CDBB0300B24554 /* SpringFromViewController.m */; };
+		273DBDCE24CDBB0300B24554 /* SpringToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDC724CDBB0300B24554 /* SpringToViewController.m */; };
+		273DBDCF24CDBB0300B24554 /* sccnn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 273DBDC924CDBB0300B24554 /* sccnn.jpg */; };
+		273DBDD624CDBB1600B24554 /* RoundDotFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDD124CDBB1500B24554 /* RoundDotFromViewController.m */; };
+		273DBDD724CDBB1600B24554 /* RoundDotToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDD224CDBB1500B24554 /* RoundDotToViewController.m */; };
+		273DBDD824CDBB1600B24554 /* RoundDotAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDD324CDBB1500B24554 /* RoundDotAnimation.m */; };
+		273DBDDA24CDBB1F00B24554 /* 123.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 273DBDD924CDBB1F00B24554 /* 123.jpg */; };
+		273DBDE124CDBB3800B24554 /* PageFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDDB24CDBB3800B24554 /* PageFromViewController.m */; };
+		273DBDE224CDBB3800B24554 /* PageToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDDC24CDBB3800B24554 /* PageToViewController.m */; };
+		273DBDE324CDBB3800B24554 /* PageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DBDE024CDBB3800B24554 /* PageAnimation.m */; };
 		2783198E241C9B140026E751 /* icon.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2783198D241C9B140026E751 /* icon.bundle */; };
 		27831991241CA0040026E751 /* GTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27831990241CA0040026E751 /* GTDetailViewController.m */; };
 		27831993241CA69F0026E751 /* GTNormalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FDEBF9240B6047009B1E99 /* GTNormalTableViewCell.m */; };
@@ -82,6 +106,52 @@
 		270B9F5324A2481B00C076BB /* GTLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTLogin.m; sourceTree = "<group>"; };
 		270B9F5524A2558C00C076BB /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		270B9F5824A2562700C076BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		273DBD9624CDA69A00B24554 /* LearnControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LearnControllerViewController.h; sourceTree = "<group>"; };
+		273DBD9724CDA69A00B24554 /* LearnControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnControllerViewController.m; sourceTree = "<group>"; };
+		273DBD9A24CDAFFC00B24554 /* TransitioningViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransitioningViewController.h; sourceTree = "<group>"; };
+		273DBD9B24CDAFFC00B24554 /* TransitioningViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitioningViewController.m; sourceTree = "<group>"; };
+		273DBD9E24CDB66D00B24554 /* ForithmFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForithmFromViewController.h; sourceTree = "<group>"; };
+		273DBD9F24CDB66D00B24554 /* ForithmFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForithmFromViewController.m; sourceTree = "<group>"; };
+		273DBDA024CDB66D00B24554 /* ForithmToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForithmToViewController.m; sourceTree = "<group>"; };
+		273DBDA124CDB66D00B24554 /* ForithmToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForithmToViewController.h; sourceTree = "<group>"; };
+		273DBDA224CDB66D00B24554 /* ForithmAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForithmAnimation.h; sourceTree = "<group>"; };
+		273DBDA324CDB66D00B24554 /* ForithmAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForithmAnimation.m; sourceTree = "<group>"; };
+		273DBDA924CDBA1700B24554 /* SwipeToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeToViewController.m; sourceTree = "<group>"; };
+		273DBDAA24CDBA1700B24554 /* SwipTransitionInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipTransitionInteractionController.h; sourceTree = "<group>"; };
+		273DBDAB24CDBA1700B24554 /* SwipeTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTransitionAnimation.h; sourceTree = "<group>"; };
+		273DBDAC24CDBA1700B24554 /* SwipeTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTransitionDelegate.m; sourceTree = "<group>"; };
+		273DBDAD24CDBA1800B24554 /* SwipTransitionInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipTransitionInteractionController.m; sourceTree = "<group>"; };
+		273DBDAE24CDBA1800B24554 /* SwipeToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeToViewController.h; sourceTree = "<group>"; };
+		273DBDAF24CDBA1800B24554 /* SwipeTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeTransitionDelegate.h; sourceTree = "<group>"; };
+		273DBDB024CDBA1800B24554 /* SwipeFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeFromViewController.h; sourceTree = "<group>"; };
+		273DBDB124CDBA1800B24554 /* SwipeTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeTransitionAnimation.m; sourceTree = "<group>"; };
+		273DBDB224CDBA1800B24554 /* SwipeFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeFromViewController.m; sourceTree = "<group>"; };
+		273DBDB924CDBAC500B24554 /* CustomPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentationController.h; sourceTree = "<group>"; };
+		273DBDBA24CDBAC500B24554 /* CustomFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomFromViewController.h; sourceTree = "<group>"; };
+		273DBDBB24CDBAC500B24554 /* CustomFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomFromViewController.m; sourceTree = "<group>"; };
+		273DBDBC24CDBAC500B24554 /* CustomToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToViewController.m; sourceTree = "<group>"; };
+		273DBDBD24CDBAC500B24554 /* CustomToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToViewController.h; sourceTree = "<group>"; };
+		273DBDBE24CDBAC500B24554 /* CustomPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentationController.m; sourceTree = "<group>"; };
+		273DBDC524CDBB0300B24554 /* SpringTrasitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringTrasitionAnimation.m; sourceTree = "<group>"; };
+		273DBDC624CDBB0300B24554 /* SpringFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringFromViewController.m; sourceTree = "<group>"; };
+		273DBDC724CDBB0300B24554 /* SpringToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringToViewController.m; sourceTree = "<group>"; };
+		273DBDC824CDBB0300B24554 /* SpringTrasitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringTrasitionAnimation.h; sourceTree = "<group>"; };
+		273DBDC924CDBB0300B24554 /* sccnn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sccnn.jpg; sourceTree = "<group>"; };
+		273DBDCA24CDBB0300B24554 /* SpringFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringFromViewController.h; sourceTree = "<group>"; };
+		273DBDCB24CDBB0300B24554 /* SpringToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringToViewController.h; sourceTree = "<group>"; };
+		273DBDD024CDBB1500B24554 /* RoundDotToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundDotToViewController.h; sourceTree = "<group>"; };
+		273DBDD124CDBB1500B24554 /* RoundDotFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundDotFromViewController.m; sourceTree = "<group>"; };
+		273DBDD224CDBB1500B24554 /* RoundDotToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundDotToViewController.m; sourceTree = "<group>"; };
+		273DBDD324CDBB1500B24554 /* RoundDotAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundDotAnimation.m; sourceTree = "<group>"; };
+		273DBDD424CDBB1500B24554 /* RoundDotAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundDotAnimation.h; sourceTree = "<group>"; };
+		273DBDD524CDBB1600B24554 /* RoundDotFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundDotFromViewController.h; sourceTree = "<group>"; };
+		273DBDD924CDBB1F00B24554 /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
+		273DBDDB24CDBB3800B24554 /* PageFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageFromViewController.m; sourceTree = "<group>"; };
+		273DBDDC24CDBB3800B24554 /* PageToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageToViewController.m; sourceTree = "<group>"; };
+		273DBDDD24CDBB3800B24554 /* PageToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageToViewController.h; sourceTree = "<group>"; };
+		273DBDDE24CDBB3800B24554 /* PageFromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageFromViewController.h; sourceTree = "<group>"; };
+		273DBDDF24CDBB3800B24554 /* PageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageAnimation.h; sourceTree = "<group>"; };
+		273DBDE024CDBB3800B24554 /* PageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageAnimation.m; sourceTree = "<group>"; };
 		2783198D241C9B140026E751 /* icon.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = icon.bundle; sourceTree = "<group>"; };
 		2783198F241CA0040026E751 /* GTDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTDetailViewController.h; sourceTree = "<group>"; };
 		27831990241CA0040026E751 /* GTDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTDetailViewController.m; sourceTree = "<group>"; };
@@ -179,6 +249,115 @@
 			path = MineController;
 			sourceTree = "<group>";
 		};
+		273DBD9524CDA66300B24554 /* LearnController */ = {
+			isa = PBXGroup;
+			children = (
+				273DBD9924CDAFA800B24554 /* transitioning */,
+				273DBD9624CDA69A00B24554 /* LearnControllerViewController.h */,
+				273DBD9724CDA69A00B24554 /* LearnControllerViewController.m */,
+			);
+			path = LearnController;
+			sourceTree = "<group>";
+		};
+		273DBD9924CDAFA800B24554 /* transitioning */ = {
+			isa = PBXGroup;
+			children = (
+				273DBDC424CDBAE100B24554 /* 翻页效果 */,
+				273DBDC324CDBAD500B24554 /* 小圆点扩散 */,
+				273DBDC224CDBACA00B24554 /* 弹性POP */,
+				273DBDB824CDBAA400B24554 /* 底部卡片 */,
+				273DBDA824CDB9E500B24554 /* 右滑拉动 */,
+				273DBD9D24CDB62300B24554 /* 逐渐出现 */,
+				273DBD9A24CDAFFC00B24554 /* TransitioningViewController.h */,
+				273DBD9B24CDAFFC00B24554 /* TransitioningViewController.m */,
+			);
+			path = transitioning;
+			sourceTree = "<group>";
+		};
+		273DBD9D24CDB62300B24554 /* 逐渐出现 */ = {
+			isa = PBXGroup;
+			children = (
+				273DBDA224CDB66D00B24554 /* ForithmAnimation.h */,
+				273DBDA324CDB66D00B24554 /* ForithmAnimation.m */,
+				273DBD9E24CDB66D00B24554 /* ForithmFromViewController.h */,
+				273DBD9F24CDB66D00B24554 /* ForithmFromViewController.m */,
+				273DBDA124CDB66D00B24554 /* ForithmToViewController.h */,
+				273DBDA024CDB66D00B24554 /* ForithmToViewController.m */,
+			);
+			name = "逐渐出现";
+			sourceTree = "<group>";
+		};
+		273DBDA824CDB9E500B24554 /* 右滑拉动 */ = {
+			isa = PBXGroup;
+			children = (
+				273DBDB024CDBA1800B24554 /* SwipeFromViewController.h */,
+				273DBDB224CDBA1800B24554 /* SwipeFromViewController.m */,
+				273DBDAE24CDBA1800B24554 /* SwipeToViewController.h */,
+				273DBDA924CDBA1700B24554 /* SwipeToViewController.m */,
+				273DBDAB24CDBA1700B24554 /* SwipeTransitionAnimation.h */,
+				273DBDB124CDBA1800B24554 /* SwipeTransitionAnimation.m */,
+				273DBDAF24CDBA1800B24554 /* SwipeTransitionDelegate.h */,
+				273DBDAC24CDBA1700B24554 /* SwipeTransitionDelegate.m */,
+				273DBDAA24CDBA1700B24554 /* SwipTransitionInteractionController.h */,
+				273DBDAD24CDBA1800B24554 /* SwipTransitionInteractionController.m */,
+			);
+			name = "右滑拉动";
+			sourceTree = "<group>";
+		};
+		273DBDB824CDBAA400B24554 /* 底部卡片 */ = {
+			isa = PBXGroup;
+			children = (
+				273DBDBA24CDBAC500B24554 /* CustomFromViewController.h */,
+				273DBDBB24CDBAC500B24554 /* CustomFromViewController.m */,
+				273DBDB924CDBAC500B24554 /* CustomPresentationController.h */,
+				273DBDBE24CDBAC500B24554 /* CustomPresentationController.m */,
+				273DBDBD24CDBAC500B24554 /* CustomToViewController.h */,
+				273DBDBC24CDBAC500B24554 /* CustomToViewController.m */,
+			);
+			name = "底部卡片";
+			sourceTree = "<group>";
+		};
+		273DBDC224CDBACA00B24554 /* 弹性POP */ = {
+			isa = PBXGroup;
+			children = (
+				273DBDC924CDBB0300B24554 /* sccnn.jpg */,
+				273DBDCA24CDBB0300B24554 /* SpringFromViewController.h */,
+				273DBDC624CDBB0300B24554 /* SpringFromViewController.m */,
+				273DBDCB24CDBB0300B24554 /* SpringToViewController.h */,
+				273DBDC724CDBB0300B24554 /* SpringToViewController.m */,
+				273DBDC824CDBB0300B24554 /* SpringTrasitionAnimation.h */,
+				273DBDC524CDBB0300B24554 /* SpringTrasitionAnimation.m */,
+			);
+			name = "弹性POP";
+			sourceTree = "<group>";
+		};
+		273DBDC324CDBAD500B24554 /* 小圆点扩散 */ = {
+			isa = PBXGroup;
+			children = (
+				273DBDD924CDBB1F00B24554 /* 123.jpg */,
+				273DBDD424CDBB1500B24554 /* RoundDotAnimation.h */,
+				273DBDD324CDBB1500B24554 /* RoundDotAnimation.m */,
+				273DBDD524CDBB1600B24554 /* RoundDotFromViewController.h */,
+				273DBDD124CDBB1500B24554 /* RoundDotFromViewController.m */,
+				273DBDD024CDBB1500B24554 /* RoundDotToViewController.h */,
+				273DBDD224CDBB1500B24554 /* RoundDotToViewController.m */,
+			);
+			name = "小圆点扩散";
+			sourceTree = "<group>";
+		};
+		273DBDC424CDBAE100B24554 /* 翻页效果 */ = {
+			isa = PBXGroup;
+			children = (
+				273DBDDF24CDBB3800B24554 /* PageAnimation.h */,
+				273DBDE024CDBB3800B24554 /* PageAnimation.m */,
+				273DBDDE24CDBB3800B24554 /* PageFromViewController.h */,
+				273DBDDB24CDBB3800B24554 /* PageFromViewController.m */,
+				273DBDDD24CDBB3800B24554 /* PageToViewController.h */,
+				273DBDDC24CDBB3800B24554 /* PageToViewController.m */,
+			);
+			name = "翻页效果";
+			sourceTree = "<group>";
+		};
 		27B280BD245D9F95009B5E9B /* VideoController */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +448,7 @@
 		27B8683324080552006FA300 /* FirstExampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				273DBD9524CDA66300B24554 /* LearnController */,
 				270B9F4E24A2419B00C076BB /* MineController */,
 				270B9F1524A212C700C076BB /* GTFramework */,
 				27B280D0245FBA48009B5E9B /* NewsController */,
@@ -433,10 +613,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				273DBDDA24CDBB1F00B24554 /* 123.jpg in Resources */,
 				2783198E241C9B140026E751 /* icon.bundle in Resources */,
 				27B8683E24080554006FA300 /* Assets.xcassets in Resources */,
 				27B280D8246065BC009B5E9B /* podfile in Resources */,
 				27B8683C24080552006FA300 /* Main.storyboard in Resources */,
+				273DBDCF24CDBB0300B24554 /* sccnn.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,22 +669,44 @@
 			buildActionMask = 2147483647;
 			files = (
 				270B9EE224A1E3D600C076BB /* GTMediator.m in Sources */,
+				273DBDE324CDBB3800B24554 /* PageAnimation.m in Sources */,
+				273DBDE124CDBB3800B24554 /* PageFromViewController.m in Sources */,
 				27B280CF245FACEE009B5E9B /* GTScreen.m in Sources */,
+				273DBDB424CDBA1800B24554 /* SwipeTransitionDelegate.m in Sources */,
+				273DBDB724CDBA1800B24554 /* SwipeFromViewController.m in Sources */,
+				273DBDC124CDBAC500B24554 /* CustomPresentationController.m in Sources */,
+				273DBDD624CDBB1600B24554 /* RoundDotFromViewController.m in Sources */,
+				273DBDA424CDB66D00B24554 /* ForithmFromViewController.m in Sources */,
+				273DBDE224CDBB3800B24554 /* PageToViewController.m in Sources */,
+				273DBDB624CDBA1800B24554 /* SwipeTransitionAnimation.m in Sources */,
 				27B280DE24606C08009B5E9B /* GTListItem.m in Sources */,
+				273DBDA524CDB66D00B24554 /* ForithmToViewController.m in Sources */,
 				27B280C9245E4648009B5E9B /* GTVideoToolBar.m in Sources */,
 				270B9F5124A241D100C076BB /* GTMineViewController.m in Sources */,
+				273DBDD724CDBB1600B24554 /* RoundDotToViewController.m in Sources */,
+				273DBDCC24CDBB0300B24554 /* SpringTrasitionAnimation.m in Sources */,
 				27831993241CA69F0026E751 /* GTNormalTableViewCell.m in Sources */,
 				27B280D5245FBC2B009B5E9B /* GTListLoader.m in Sources */,
 				27B280C6245DA85F009B5E9B /* GTVideoCoverView.m in Sources */,
+				273DBDD824CDBB1600B24554 /* RoundDotAnimation.m in Sources */,
+				273DBDC024CDBAC500B24554 /* CustomToViewController.m in Sources */,
+				273DBDA624CDB66D00B24554 /* ForithmAnimation.m in Sources */,
+				273DBDB324CDBA1800B24554 /* SwipeToViewController.m in Sources */,
 				27B8683924080552006FA300 /* GTNewsViewController.m in Sources */,
+				273DBD9824CDA69A00B24554 /* LearnControllerViewController.m in Sources */,
 				270B9F5424A2481B00C076BB /* GTLogin.m in Sources */,
 				27FDEBF7240AAB8A009B1E99 /* GTRecommandViewController.m in Sources */,
 				27B8684424080554006FA300 /* main.m in Sources */,
 				27831991241CA0040026E751 /* GTDetailViewController.m in Sources */,
 				27B280CC245FAB9B009B5E9B /* GTSplashView.m in Sources */,
 				27B8683624080552006FA300 /* AppDelegate.m in Sources */,
+				273DBDB524CDBA1800B24554 /* SwipTransitionInteractionController.m in Sources */,
+				273DBDCD24CDBB0300B24554 /* SpringFromViewController.m in Sources */,
+				273DBD9C24CDAFFC00B24554 /* TransitioningViewController.m in Sources */,
 				27831996241CB1EE0026E751 /* GTDeleteCellView.m in Sources */,
 				27FDEBF4240A9A14009B1E99 /* GTVideoViewController.m in Sources */,
+				273DBDBF24CDBAC500B24554 /* CustomFromViewController.m in Sources */,
+				273DBDCE24CDBB0300B24554 /* SpringToViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
